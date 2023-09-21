@@ -1,0 +1,39 @@
+/* EL SELECTOR UNIVERSAL SELECCIONA TODOS LOS ELEMENTOS 
+DEL HMTL POR SEPARADO Y LES APLICA UNAS PROPIEDADES DE CSS */
+
+/* CTRL + Ç EN WIN */
+/* CMD + SHIFT + 7 EN MAC */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* La propiedad box-sizing servirá para modificar el modelo de caja 
+    por defecto, para que cuente el padding como tamaño interno de la caja */
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.sidebar {
+    /* Los porcentajes son una medida relativa al tamaño del 
+    contenedor padre */
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    background-color: rgb(30, 5, 54);
+}
+
+#content {
+    margin-left: 250px;
+    padding: 2em;
+}
